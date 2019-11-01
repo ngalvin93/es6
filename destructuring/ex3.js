@@ -11,5 +11,5 @@ let array = [
 // Using destructuring, and in one line of code, 
 //  create 2 variables that extract the names of everyone in the array
 
-let [first, second] = array
+let [{first}, {second}] = array
 console.log(first, second)
